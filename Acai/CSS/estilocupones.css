@@ -1,0 +1,184 @@
+
+header{
+    background: rgba(0, 101, 183, 0.327);
+    width: 100%;
+    height: 100%;
+    
+}
+.centrado{
+    margin: 30px;
+}
+#formulariocss{
+    align-items: center;
+    background: rgba(0, 101, 183, 0.327);
+    width: 45%;
+    height: 100%;
+    position: relative;
+    left: 25%;
+  
+}
+#superior{
+    margin: 30px;
+    background: rgba(108,101,142,255);
+    width: 100%;
+    height: 100%;
+
+}
+#Formulariomain{
+    display: flex;
+    flex-direction: column;
+}
+#multioption{
+display: inline;
+}
+
+.texformulario{
+    color: aliceblue;
+}
+ul{
+    color: rgb(255, 255, 255) ;
+    position: absolute;
+    top: 50px;
+    left: 80%;
+    list-style-type: none;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+li{
+    color: azure;
+    text-decoration: none;
+}
+#titulop{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    left: 40%;
+    top: 5%;
+    text-align: center;
+}
+#imagenp{
+    width: 150px;
+    margin: 10px;
+    border-radius: 150%;
+}
+#imagenSesion{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 72%;
+    top: 4%;
+}
+#imagenCarrito{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 90%;
+    top: 4%;
+}
+#btnCupones{
+    background-color: rgb(7, 81, 124);
+    position: absolute;
+    width: 150px; /*ancho de la caja */
+    height: 50px;/*alto*/
+    padding: 10px;/*espacio entre el contenido y el borde*/
+    border-color: black;
+    top: 80%;
+    left: 75%;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+#textop{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+#imagen2{
+    width: 550px;
+    height: 700px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 15px 15px 9px black;
+    float: left;
+}
+body{
+    background-image:url(../IMG/marca-de-comidas.jpeg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .coupons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .coupon {
+    display: flex;
+    align-items: center;
+    background-color: #ffc107;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .qr-code {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .coupon-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .coupon-content h3 {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+  }
+  
+  .coupon-content p {
+    font-size: 14px;
+    margin: 0;
+    color: #333;
+  }

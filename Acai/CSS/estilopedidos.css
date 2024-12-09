@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgba(0, 101, 183, 0.327);
+    width: 100%;
+    height: 100%;
+    
+}
+.centrado{
+    margin: 30px;
+}
+#formulariocss{
+    align-items: center;
+    background: rgba(0, 101, 183, 0.327);
+    width: 45%;
+    height: 100%;
+    position: relative;
+    left: 25%;
+  
+}
+#superior{
+    margin: 30px;
+    background: rgba(108,101,142,255);
+    width: 100%;
+    height: 100%;
+
+}
+#Formulariomain{
+    display: flex;
+    flex-direction: column;
+}
+#multioption{
+display: inline;
+}
+
+.texformulario{
+    color: aliceblue;
+}
+ul{
+    color: rgb(255, 255, 255) ;
+    position: absolute;
+    top: 50px;
+    left: 80%;
+    list-style-type: none;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+li{
+    color: azure;
+    text-decoration: none;
+}
+#titulop{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    left: 40%;
+    top: 5%;
+    text-align: center;
+}
+#imagenp{
+    width: 150px;
+    margin: 10px;
+    border-radius: 150%;
+}
+#imagenSesion{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 72%;
+    top: 4%;
+}
+#imagenCarrito{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 90%;
+    top: 4%;
+}
+#btnCupones{
+    background-color: rgb(7, 81, 124);
+    position: absolute;
+    width: 150px; /*ancho de la caja */
+    height: 50px;/*alto*/
+    padding: 10px;/*espacio entre el contenido y el borde*/
+    border-color: black;
+    top: 80%;
+    left: 75%;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+#textop{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+#imagen2{
+    width: 550px;
+    height: 700px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 15px 15px 9px black;
+    float: left;
+}
+#bodyindex{
+    background-image:url(../IMG/FondoReservas.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    
+  }
+  
+  .main-container {
+    margin: 0 auto;
+    width: 1200px;
+    
+    
+     
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+    
+  }
+  
+
+  .cart {
+
+    background-color: #ffffff81;
+    border-radius: 8px;
+    width: 48%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    height: 700px;
+    
+    
+  }
+  
+  .cart h3 {
+    font-size: 18px;
+    color: #4d2d91;
+    margin-bottom: 10px;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    
+  }
+  
+  .cart-items li {
+    background-color: #4d91f7;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .confirm-btn {
+    background-color: #4d2d91;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #3b2270;
+  }
+  
+  
+  .form {
+    margin: 30px;
+    background-color: #ffffff7e;
+    border-radius: 8px;
+    width: 48%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form h3 {
+    font-size: 18px;
+    color: #4d2d91;
+  }
+  
+  .form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .payment-methods {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .payment-btn {
+    background-color: #4d2d91;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .payment-btn:hover {
+    background-color: #3b2270;
+  }
+
+  .BOTON{
+    background-color: #4d2d91;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+
+
+  }
+
+  .BOTON:hover{
+    background-color: #3b2270;
+
+  }

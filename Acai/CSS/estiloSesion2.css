@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.imgInicioS{
+    position: relative;
+    width: 16%;
+    height: 290px;
+    left: 42%;
+
+
+}
+.imgInicioS img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#formulariocss{
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    position: relative;
+    left: 25%; 
+}
+
+#superior{
+    margin: 5px;
+    background: rgba(108,101,142,255);
+    width: 100%;
+    height: 100%;
+
+}
+#Formulariomain{
+    display: flex;
+    flex-direction: column;
+}
+#multioption{
+display: inline;
+}
+
+.texformulario{
+    color: aliceblue;
+}
+ul{
+    color: rgb(255, 255, 255) ;
+    position: absolute;
+    top: 20px;
+    left: 80%;
+    list-style-type: none;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+li{
+    color: azure;
+    text-decoration: none;
+}
+#titulop{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    left: 40%;
+    top: 10px;
+    text-align: center;
+}
+#imagenp{
+    width: 150px;
+    margin: 10px;
+    border-radius: 150%;
+}
+#imagenSesion{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 72%;
+    top: 2%;
+}
+#imagenCarrito{
+    position: absolute;
+    width: 125px;
+    margin: 10px;
+    left: 90%;
+    top: 2%;
+}
+#btnCupones{
+    background-color: rgb(7, 81, 124);
+    position: absolute;
+    width: 150px; /*ancho de la caja */
+    height: 20px;/*alto*/
+    padding: 15px;/*espacio entre el contenido y el borde*/
+    border-color: black;
+    top: 90%;
+    left: 75%;
+    text-align: center;
+    align-items: center;
+}
+#textop{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+#imagen2{
+    width: 550px;
+    height: 700px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 15px 15px 9px black;
+    float: left;
+}
+#bodyindex{
+    background-image:url(../IMG/FSesion.jpeg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+#formulariocss{
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    position: relative;
+    left: 25%;
+  
+}
+
+#Formulariomain{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    input,select{
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px;
+    }
+
+}
+
+.texformulario{
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    margin: 20px;
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.575);
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+#comentario{
+    margin: 15px;
+    width: 120px;
+    height: 130px;
+    
+}
+
+#btnEnviar{
+margin: 30px;
+background-color: rgb(90, 20, 87);
+height: 60px;
+width: 120px;
+border-radius: 15%;
+color: aliceblue;
+font-size: 40px;
+align-items: center;
+text-align: center;
+
+}
+#btnCrear{
+    margin: 20px;
+    background-color: rgb(90, 20, 87);
+    height: 60px;
+    width: 230px;
+    border-radius: 15%;
+    color: aliceblue;
+ 
+    align-items: center;text-align: center;
+    padding: 20px;
+    }  
+
+
+
+
